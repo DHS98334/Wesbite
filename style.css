@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Share+Tech+Mono&display=swap");
+
+html, body {
+  height: 180%;
+  width: 100%;
+}
+
+#matrix {
+  position: absolute;
+  z-index: -1;
+}
+
+#Title {
+  font-size: 100px;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+#Blurb {
+  font-size: 15px;
+  color: white;
+}
+
+#Desc {
+  font-size: 210%;
+}
+
+.aboutH {
+  font-size: 500%;
+}
+
+#Joe {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 19px; 
+  position: fixed;
+  z-index: 1;
+}
+
+/* animate with js later (transition into greater width + increase shadow size) */
+.card:hover {
+  position: absolute;  
+  width: 28vw;
+}
